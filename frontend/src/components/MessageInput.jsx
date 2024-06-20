@@ -86,12 +86,12 @@ const MessageInput = ({ setMessages }) => {
   };
 
   return (
-    <Flex flexDir={"justify-between"}>
+    <Flex>
       <Flex flexDir={"justify-between"}>
         <form onSubmit={handleSendMessage}>
           <InputGroup
             justifyContent={"center"}
-            w={"330px"}
+            w={"290px"}
             alignItems={"center"}
             left={3}
             bottom={2}
